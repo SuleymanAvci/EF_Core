@@ -76,6 +76,6 @@ class CsAppContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=(LocalDB)\\MSSQLLocalDB; Database=Core_12_Proc; Trusted_Connection=True");
+        optionsBuilder.UseSqlServer("Server=(LocalDB)\\MSSQLLocalDB; Database=CsAppDB_12_Proc; Trusted_Connection=True");
     }
 }

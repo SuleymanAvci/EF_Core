@@ -60,7 +60,7 @@ public class CsAppContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=(LocalDB)\\MSSQLLocalDB; Database=Core_03; Trusted_Connection=True");
+        optionsBuilder.UseSqlServer("Server=(LocalDB)\\MSSQLLocalDB; Database=CsAppDB_03; Trusted_Connection=True");
     }
     public DbSet<Person> Persons { get; set; }
     public DbSet<Department> Departments { get; set; }
